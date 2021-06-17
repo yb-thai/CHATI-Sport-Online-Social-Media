@@ -6,17 +6,16 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The MVP we delivered is a web application with a React JS frontend and Django backend which provides URLs to make requests in REST APIs. It has user account creation and authentication.  Users can view and create events and create their statuses based on the event they want to share their feelings. Also, other users can interact with the statuses through comments. Owner of events or owner of statuses have a choice to delete and edit function. Users can update their profile page with things like organization, favorite sport, and role in organizatio
 
 ###### Unfinished Features:
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stories and Chat box are the things that we could not finish because we want to focus on user’s profile and authentication, events, statuses, and comments to make it work smoothly on backend server API and frontend UI to make users easy to interact with app.
+ Stories and Chat box are the things that we could not finish because we want to focus on user’s profile and authentication, events, statuses, and comments to make it work smoothly on backend server API and frontend UI to make users easy to interact with app.
   
 ## Build Overview:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Live instances of the CHATI frontend and backend are available (chatifrontend.herokuapp.com, chatispu.herokuapp.com). However, our development efforts are also exhibited in our code base. Here’s how we navigate and run locally:\
+Live instances of the CHATI frontend and backend are available (chatifrontend.herokuapp.com, chatispu.herokuapp.com). However, our development efforts are also exhibited in our code base. Here’s how we navigate and run locally:\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Through various shell incantations, it is possible to instantiate local servers that allow development of frontend or backend.  You must be in the directory of the /frontend to run npm start and in /backend to run Python manage.py runserver.  Once both ends are running, you can make calls from `localhost:3000` (frontend) to various paths starting at root `127.0.0.1:8000/api` (backend).
 
-**FRONTEND:**
+**FRONTEND:**\
 Instructions are in frontend repo
 
-**BACKEND:**
+**BACKEND:**\
 Instructions are in backend repo 
 
 **DEPLOY:**\
@@ -26,8 +25,8 @@ We use two GitHub-linked Heroku instances. The deployment process requires atten
 Because we hold two projects in one repo, we configure ( via dashboard.heroku.comà‘settings’ ) a configuration variable to specify the subdirectory to image:PROJECT_PATH [subdirectory] where subdirectory is either ‘frontend’ or ‘backend
 
 **BuildPacks:**\
-Require https://github.com/timanovsky/subdir-heroku-buildpack.git as the first buildpack ( via dashboard.heroku.comà‘settings’ ).        
-The frontend requires an additional buildpack https://github.com/mars/create-react-app-buildpack.git. The backend may use the standard Heroku/Python buildpack.
+- Require https://github.com/timanovsky/subdir-heroku-buildpack.git as the first buildpack ( via dashboard.heroku.comà‘settings’ ).        
+- The frontend requires an additional buildpack https://github.com/mars/create-react-app-buildpack.git. The backend may use the standard Heroku/Python buildpack.
 
 ## Test Results and User Feedback:
 
