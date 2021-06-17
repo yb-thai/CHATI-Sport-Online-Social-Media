@@ -1,2 +1,2 @@
-# CHATI-Sport-Online-Social-Media
-Implement with Go and React framework
+# CHATI2
+CSC4152

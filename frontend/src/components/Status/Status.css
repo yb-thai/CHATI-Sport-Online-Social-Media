@@ -1,0 +1,68 @@
+#results {
+  position: absolute;
+  width: inherit;
+}
+#comment-box {
+  width: 15rem;
+  background-color: #e8e8e8;
+  border-radius: 1rem;
+  border-color: #e8e8e8;
+}
+#comment-box h6 {
+  padding: 0 1rem 0 1rem;
+  color: black;
+  font-weight: bold;
+}
+#comment-box p {
+  padding: 0 1rem 0 1rem;
+  color: black;
+  font-weight: normal;
+}
+
+#statuslist {
+  width: 80vw;
+  max-width: 1170 px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+  background-color: #e8e8e8;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+#status {
+  padding-top: 0;
+}
+
+#word {
+  color: #000000;
+}
+
+#card {
+  background-color: #e8e8e8;
+}
+#statusScreenContainer {
+  width: 80%;
+}
+#fixcommentbox {
+  width: 100%;
+}
+.fixwritecomment {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+#fixformcomment {
+  padding-top: 1rem;
+}
+#fixGoBack {
+  margin-top: auto;
+  margin-bottom: 5rem;
+}
+#formUpdateStatus {
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 2%;
+}
+#iconLayOut {
+  margin-top: 2rem;
+  justify-content: center;
+}

@@ -1,0 +1,36 @@
+.popup-box {
+    position: fixed;
+    width: 80%;
+    height: 30%;
+    top: 0;
+    left: 0px;
+
+
+  }
+   
+  .box {
+    position: relative;
+    width: 40%;
+    margin-top: 15%;
+    margin-left: 15%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+  }
+   
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    left:700px;
+    top: 210px;
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }

@@ -1,0 +1,11 @@
+Django==3.1.7
+django-cors-headers==3.7.0
+django-guardian==2.3.0
+django-rest-auth==0.9.5
+djangorestframework==3.12.4
+djangorestframework-guardian==0.3.0
+djangorestframework-jwt==1.11.0
+djangorestframework-simplejwt==4.6.0
+whitenoise==5.2.0
+gunicorn
+django-heroku
